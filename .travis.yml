@@ -29,7 +29,7 @@ install:
     fi
 
 script:
-  - py.test
+  - tests.py
 
 env:
   global:
