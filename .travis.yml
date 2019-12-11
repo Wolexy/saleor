@@ -29,7 +29,7 @@ install:
     fi
 
 script:
-  - python test_order.py
+  - tox
 
 env:
   global:
