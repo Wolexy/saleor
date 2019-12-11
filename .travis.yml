@@ -29,7 +29,7 @@ install:
     fi
 
 script:
-  - tests.py
+  - python test_order.py
 
 env:
   global:
