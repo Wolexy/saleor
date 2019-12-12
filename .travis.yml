@@ -29,7 +29,7 @@ install:
     fi
 
 script:
-  - tox
+  - pytest
 
 env:
   global:
